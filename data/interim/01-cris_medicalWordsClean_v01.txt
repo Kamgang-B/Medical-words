@@ -1,54 +1,8 @@
-Assist
-Bandage
-Boards
-Botox
-Bruise
-Cancer
-Catch
-Check
-Clusters
-Cough
-Dentist
-Doctor
-Drugs
-Earache
-Graze
-Headache
-Healthy
-Hospital
-Infection
-Informatics
-Injection
-Injure
-Kegel
-Medicaid
-Medicare
-Medicine
-Midwife
-Monitor
-Nurse
-Operation
-Painful
-Patient
-Prescribe
-Specialist
-Spine
-Surgeon
-Tablet
-Telecare
-Telehealth
-Toothache
-Tranquilizer
-Treat
-Unhealthy
-Unwell
-Virus
-Workforce
-Wound
-aacom
-aaham
+botox
+kegel
+medicaid
+medicare
 aanat
-aapcc
 abate
 abatement
 abdomen
@@ -100,7 +54,6 @@ acetone
 acetylcholine
 acetylcholinesterase
 acetylcysteine
-acgme
 achalasia
 achillobursitis
 achillodynia
@@ -133,7 +86,6 @@ acustimulation
 acute
 acyclovir
 adamantine
-adamts2
 adaptability
 addiction
 adduction
@@ -158,7 +110,6 @@ adjacent
 adjuvant
 admission
 adnexa
-adper
 adrenaline
 adrenoleukodystrophy
 adulterant
@@ -232,7 +183,6 @@ allopath
 allopathic
 allopathist
 allopathy
-alms1
 alogia
 alopecia
 alprazolam
@@ -251,7 +201,6 @@ amblyopia
 ambulance
 ambulant
 ambulatory
-amcra
 ameba
 amebiasis
 amelanotic
@@ -433,7 +382,6 @@ antonomastic
 antonomasy
 antrum
 anvil
-anxa1
 anxiety
 aorta
 aortal
@@ -452,7 +400,6 @@ apiphobia
 aplasia
 apnea
 apneic
-apobec3g
 apolipoproteins
 apollo
 apopain
@@ -643,7 +590,6 @@ basilar
 basophil
 bathophobia
 baylisascaris
-bcbsi
 beals
 beard
 bednet
@@ -724,7 +670,6 @@ blindness
 blister
 blood
 blush
-bmpr1a
 bodywork
 bolus
 boomeritis
@@ -750,8 +695,6 @@ bradyphrenia
 bradypnea
 brain
 brainstem
-brca1
-brca2
 breadbasket
 breast
 breastfeeding
@@ -800,7 +743,6 @@ bypass
 cachectic
 cachetic
 cachexia
-cadac
 cadasil
 cadaver
 cadmium
@@ -808,7 +750,6 @@ caduceus
 caecal
 caecum
 caffeine
-cahps
 calamine
 calcaneus
 calcification
@@ -902,11 +843,8 @@ caveola
 cavernoma
 cavities
 cavity
-cbrne
-cccr5
 cecal
 cecum
-cehrt
 cellulite
 cellulitis
 cellulitus
@@ -933,7 +871,6 @@ cervix
 chalazion
 chamomile
 champus
-champva
 chancre
 chancroid
 channelopathy
@@ -943,7 +880,6 @@ checkpoint
 cheek
 cheilitis
 cheiroarthropathy
-chek2
 chekhov
 chemo
 chemobrain
@@ -1070,7 +1006,6 @@ coagulate
 coagulation
 coarctation
 cobalamin
-cobra
 cocaine
 cocci
 coccus
@@ -1089,8 +1024,6 @@ cohort
 coinsurance
 coitophobia
 coitus
-col2a1
-col4a5
 colchicine
 colectomy
 colic
@@ -1168,7 +1101,6 @@ convulsion
 coprolalia
 coprolith
 coprophobia
-coq10
 cordectomy
 cornea
 corneal
@@ -1195,9 +1127,7 @@ counterpulsation
 courier
 cowpox
 coxsackievirus
-cpp32
 crabs
-crac1
 cradlecam
 cranial
 craniocleidodysostosis
@@ -1259,7 +1189,6 @@ cushingoid
 cutaneous
 cuticle
 cutis
-cxcr4
 cyanide
 cyanosis
 cyanotic
@@ -1453,7 +1382,6 @@ diverticulitis
 diverticulosis
 diverticulum
 dizziness
-dmort
 dobelle
 doctor
 dolor
@@ -1520,7 +1448,6 @@ dysuria
 earache
 eardrum
 earwax
-ecasa
 ecchymosis
 ecchymotic
 echinacea
@@ -1548,7 +1475,6 @@ eczema
 edema
 edentulism
 edentulous
-efemp1
 effacement
 efferent
 effusion
@@ -1601,7 +1527,6 @@ emmenagogue
 emphysema
 empirical
 empyema
-emtala
 enamel
 enanthem
 enate
@@ -1711,10 +1636,8 @@ epithelium
 epitope
 epizootic
 eponym
-epsdt
 equinophobia
 equol
-erbb1
 ergonomics
 ergophobia
 ergot
@@ -1735,8 +1658,6 @@ erythroplakia
 erythropoietin
 erythroprosopalgia
 eschar
-esf06
-esf08
 eskalith
 esophageal
 esophagectomy
@@ -1810,14 +1731,10 @@ extrinsic
 extubate
 extubation
 exudate
-eycl1
-eycl2
-eycl3
 eyelash
 eyelid
 eyetooth
 facelift
-fache
 facies
 facultative
 fahrenheit
@@ -1837,8 +1754,6 @@ father
 fatigue
 fauces
 favism
-fbln3
-fbln5
 febrile
 fecal
 fecalith
@@ -1846,7 +1761,6 @@ feces
 fecund
 fecundity
 feedback
-fehbp
 female
 femara
 femicide
@@ -1864,8 +1778,6 @@ fetoscopy
 fetus
 fever
 feverfew
-fgfr2
-fgfr3
 fiber
 fibril
 fibrillation
@@ -2084,7 +1996,6 @@ gravid
 gregarious
 grief
 groin
-gsto1
 guanine
 guardianship
 guasha
@@ -2113,17 +2024,12 @@ hamstring
 handedness
 hangover
 hantavirus
-hanys
 haploid
 haploinsufficiency
 happiness
 hapten
 havrix
 hayfever
-hazmat
-hcfac
-hcpcs
-hcplan
 headache
 health
 healthy
@@ -2131,10 +2037,8 @@ heart
 heartburn
 heartworm
 heatliness
-hedis
 hedonic
 hedonophobia
-heics
 hejama
 helicase
 helminth
@@ -2229,15 +2133,12 @@ hiatal
 hiatus
 hiccough
 hiccups
-hicpac
 hidrosis
 hidrotic
 hipaa
-hipcs
 hippocampus
 hippocrates
 hippophobia
-hipps
 hirsutism
 hirudin
 hirudotherapy
@@ -2252,9 +2153,7 @@ histology
 histone
 histoplasma
 histoplasmosis
-hitech
 hives
-hlsem
 hnpcc
 hoarseness
 hobbit
@@ -2287,7 +2186,6 @@ hospital
 hospitalist
 hounsfield
 house
-htr1a
 humectant
 humerus
 humidifier
@@ -2424,7 +2322,6 @@ hypoxia
 hypoxic
 hysterectomy
 hysteroscopy
-iahsa
 iatrapistic
 iatric
 iatrics
@@ -2435,11 +2332,8 @@ iatry
 ibuprofen
 ichthyosis
 icterus
-idals
 idiopathic
 idiopathy
-iherf
-ihhcc
 ileoscopy
 ileostomy
 ileum
@@ -2450,7 +2344,6 @@ illusion
 imagery
 imbibe
 imbricate
-imgma
 imitrex
 immobilize
 immune
@@ -2578,7 +2471,6 @@ invest
 involuntary
 involute
 involution
-ioase
 iodide
 iodides
 iodine
@@ -2859,8 +2751,6 @@ lysis
 lysosome
 lytic
 macerate
-macpac
-macra
 macroangiopathy
 macrobiota
 macrobiotic
@@ -2882,7 +2772,6 @@ macular
 macule
 macules
 maculopathy
-madh4
 maggot
 magnesia
 magnesium
@@ -2939,7 +2828,6 @@ maxilla
 maximizer
 mbchb
 mcclintock
-mcph1
 measles
 measly
 meatus
@@ -2958,11 +2846,9 @@ medigap
 meditation
 medlars
 medline
-medpac
 medulla
 medulloblastoma
 medvac
-mef2a
 megabase
 megacolon
 megakaryocyte
@@ -3036,7 +2922,6 @@ methylenedioxymethamphetamine
 methylmalonicaciduria
 methylmercury
 metrorrhagia
-mgcrb
 miasma
 miasmic
 microabscess
@@ -3093,7 +2978,6 @@ minipill
 minor
 miosis
 miotic
-mippa
 mirna
 miscarriage
 misophonia
@@ -3343,7 +3227,6 @@ nickel
 nicotine
 nictitate
 nidcd
-niddm
 nidus
 niehs
 nigms
@@ -3355,7 +3238,6 @@ nitrates
 nitrogen
 nitroglycerin
 nitrosoureas
-nndss
 nocardiosis
 nocebo
 nociceptors
@@ -3409,7 +3291,6 @@ nyctanopia
 nyctophobia
 nymph
 nystagmus
-oasis
 obese
 obesity
 objective
@@ -3695,17 +3576,6 @@ paresis
 paresthesia
 paricalcitol
 parietal
-park1
-park10
-park11
-park2
-park3
-park4
-park5
-park6
-park7
-park8
-park9
 parkinsonism
 paronychia
 parotids
@@ -3734,9 +3604,7 @@ pathophysiology
 pathy
 patient
 pauling
-pcori
 peccant
-pecos
 pediatric
 pediatrics
 pediculicide
@@ -3807,7 +3675,6 @@ pesticide
 pestilence
 pestis
 petechiae
-pfpms
 phacoemulsification
 phage
 phagocyte
@@ -3887,7 +3754,6 @@ pineoblastoma
 pineocytoma
 pinguecula
 pinguicula
-pink1
 pinkeye
 pinna
 pinnate
@@ -3996,7 +3862,6 @@ potomania
 poultice
 pound
 power
-ppaca
 prandial
 prazosin
 prealbumin
@@ -4007,7 +3872,6 @@ prediabetes
 predispose
 preeclampsia
 preemie
-preemy
 preexcitation
 pregnancy
 pregnant
@@ -4186,7 +4050,6 @@ quotidian
 quotient
 rabies
 racemose
-rad51
 radial
 radiate
 radiation
@@ -4222,7 +4085,6 @@ randomized
 randomly
 range
 rantes
-rbrvs
 reabsorption
 reagent
 rebound
@@ -4394,7 +4256,6 @@ scapula
 scarification
 scarlatina
 schadenfreude
-schip
 schistosome
 schistosomiasis
 schizencephaly
@@ -4431,7 +4292,6 @@ scrubs
 scullcap
 scurvy
 scutellaria
-scya2
 seborrhea
 sebum
 secretin
@@ -4524,8 +4384,6 @@ sleep
 sleeplessness
 sleepwalking
 sling
-smad3
-smad4
 smallpox
 smell
 snake
@@ -4596,7 +4454,6 @@ stapes
 staph
 staphylococcus
 stari
-start
 stasis
 statins
 steatohepatitis
@@ -4868,7 +4725,6 @@ tissue
 titer
 titin
 titre
-tnfrsf6
 tobacco
 tocolysis
 tocolytic
@@ -4948,7 +4804,6 @@ traumatology
 treacle
 treadmill
 tremor
-trhca
 triage
 triceps
 trichinellosis
@@ -5069,7 +4924,6 @@ urologist
 urothelium
 urticaria
 usfda
-usphs
 uteroglobin
 uterus
 utility
@@ -5080,7 +4934,6 @@ uvulopalatopharyngoplasty
 vaccination
 vaccines
 vaccinia
-vaers
 vagina
 vaginismus
 vaginitis
@@ -5178,7 +5031,6 @@ vitamins
 vitiligo
 vitrectomy
 vitreous
-vmbip
 volar
 voluntary
 volvulus
