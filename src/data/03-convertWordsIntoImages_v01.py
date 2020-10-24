@@ -49,7 +49,7 @@ def convertWordsIntoImage(readfile: str, writedir: str = '',
 
     # define default color
     if wordcolorRGB is None:
-        wordcolorRGB = (255, 255, 255)
+        wordcolorRGB = (0, 0, 0)
 
     # convert each word into a png image and save it
     for word in words:
@@ -58,7 +58,7 @@ def convertWordsIntoImage(readfile: str, writedir: str = '',
             imagesize = (80 * len(word), 100)
 
         # create an image
-        image = Image.new(mode='RGB', size=imagesize)
+        image = Image.new(mode='RGB', size=imagesize, color=(255, 255, 255))
 
         # set image font
         font = ImageFont.truetype(imagefont, fontsize)
