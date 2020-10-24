@@ -69,7 +69,21 @@ def convertWordsIntoImage(readfile: str, writedir: str = '',
 
         # save image containing the word
         image.save(f'{writedir}{word}_image.png')
+    return None
+
+if not os.path.isdir('wordsInImages'):
+    os.makedirs('wordsInImages')
 
 
 convertWordsIntoImage('01-allMedicalWords_v01.txt', 'wordsInImages/')
+
+
+
+
+
+
+
+
+
+
 
