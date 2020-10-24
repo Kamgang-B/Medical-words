@@ -45,3 +45,27 @@ cleanWords(readfile='01-john_MedicalWords_v01.txt', writefile='01-john_MedicalWo
 cleanWords(readfile='01-mamuzou_MedicalWords_v01.txt', writefile='01-mamuzou_MedicalWordsClean_v01.txt')
 cleanWords(readfile='01-enam_MedicalWords_v01.txt', writefile='01-enam_MedicalWordsClean_v01.txt')
  
+
+# save all words in one file
+files = ['01-cris_medicalWordsClean_v01.txt', '01-john_MedicalWordsClean_v01.txt',
+         '01-mamuzou_MedicalWordsClean_v01.txt', '01-enam_MedicalWordsClean_v01.txt']
+
+## list to store all the words
+allWords = []
+
+for file in files:
+    # read corrent file
+    fileWords = open(file=file, mode="r")
+    
+    # add to the list of all words
+    allWords += [line for line in fileWords]
+    fileWords.close()
+
+## 
+allWordsFile = open(file='01-allMedicalWords_v01.txt', mode="w")
+
+## list of all words in alphabetic order (unique set of words)
+allWordsFile.writelines(''.join(sorted(list(set(allWords)))))
+allWordsFile.close()
+
+
