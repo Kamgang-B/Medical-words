@@ -1,1 +1,33 @@
 # Medical-words
+
+_Medical-words_ is a Python Lab project
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
