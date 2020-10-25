@@ -8,12 +8,13 @@ import os
 from PIL import Image, ImageDraw, ImageFont
 
 # define a function to convert words into images
-def convertWordsIntoImage(readfile: str, writedir: str = '',
-                          imagesize: tuple = None,
-                          fontsize: int = 50,
-                          imagefont: str = None,
-                          wordcolorRGB: tuple = None) -> None:
+def convertWordsIntoImages(readfile: str, writedir: str = '',
+                           imagesize: tuple = None,
+                           fontsize: int = 50,
+                           imagefont: str = None,
+                           wordcolorRGB: tuple = None) -> None:
     '''
+    
     This function is used to convert words into images
 
     :param readfile: path to the text file containing the words (one word by line!)
@@ -75,7 +76,8 @@ if not os.path.isdir('wordsInImages'):
     os.makedirs('wordsInImages')
 
 
-convertWordsIntoImage('01-allMedicalWords_v01.txt', 'wordsInImages/')
+if __name__ == '__main__':
+    convertWordsIntoImages('01-allMedicalWords_v01.txt', 'wordsInImages/')
 
 
 
