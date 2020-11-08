@@ -3,6 +3,11 @@
 #          are contained in the file 01-allMedicalWords_v01.txt
 
 
+# NOTE:
+# - A 'word' in this function is defined as a set of ASCII alphabet characters (a-zA-Z).
+# - Only fonts of type OpenType and TrueType are allowed.
+
+
 import re
 import os
 from PIL import Image, ImageDraw, ImageFont
