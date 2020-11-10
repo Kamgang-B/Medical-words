@@ -188,7 +188,7 @@ if __name__ == '__main__':
 
     else:
         # function argument error message (see below)
-        err = "If specified, function arguments should be passed as a dictionary within quotes\nExample: convertWordsIntoImages.py \"{'key1': 'value1', 'key2': 'value2'}\""
+        err = "If specified, function arguments should be passed as a dictionary within quotes\nExample: convertWordsIntoImages.py \"{'readwords': 'words.txt', 'imagefont': 'fonts', 'writedir': 'Images'}\""
 
         # check if arguments are passed to convertWordsIntoImages (from the command line)
         if len(sys.argv) == 2:
