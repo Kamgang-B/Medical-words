@@ -3,13 +3,9 @@
 #          are contained in the file 01-allMedicalWords_v01.txt
 
 
-# NOTE:
-# - A 'word' in this function is defined as a set of ASCII alphabet characters (a-zA-Z).
-# - Only fonts of type OpenType and TrueType are allowed.
-
-
 import re
 import os
+import sys
 from PIL import Image, ImageDraw, ImageFont
 from glob import glob
 from random import choices, choice
@@ -71,7 +67,7 @@ def convertWordsIntoImages(readwords,                  # readwords: a string or 
                 words = [re.sub('\n$', '', line).strip() for line in file if len(line) > 1]
                 file.close()
             except:
-                raise FileNotFoundError(f'{readwords} file not found!')
+                raise FileNotFoundError(f"'{readwords}' file not found!")
 
             # check that 'words' is not empty and contains only single words
             if len(words) < 1:
@@ -95,7 +91,7 @@ def convertWordsIntoImages(readwords,                  # readwords: a string or 
     # check if the directory to save the images, writedir, exists
     if isinstance(writedir, str):
         if not os.path.isdir(writedir):
-            raise FileNotFoundError(f'{writedir} directory not found!')
+            raise FileNotFoundError(f"'{writedir}' directory not found!")
         else:
             # get absolute path
             writedir = os.path.abspath(writedir) + '\\'
@@ -117,7 +113,7 @@ def convertWordsIntoImages(readwords,                  # readwords: a string or 
 
             # check if imagefont is a path to a director containing fonts
             if not os.path.isdir(imagefont):
-                raise TypeError("'imagefont' (if specified as a string) should be either path to a font (with .otf or .ttf extension) or an existing directory containing fonts")
+                raise TypeError("'imagefont' (if specified as a string) should be either a path to a font (with .otf or .ttf extension) or an existing directory containing fonts")
             else:
                 # find all fonts in the directory
                 imagefont = os.path.abspath(imagefont) + '\\'
@@ -180,10 +176,50 @@ def convertWordsIntoImages(readwords,                  # readwords: a string or 
 
 
 if __name__ == '__main__':
-    # current directory: 'Medical-words' directory
-    convertWordsIntoImages(readwords='data/processed/01-allMedicalWords_v01.txt',
-                           imagefont='data/raw/fonts',
-                           writedir='data/processed/Images')
+
+    if len(sys.argv) == 1:
+        #convertWordsIntoImages(readwords='data/processed/01-allMedicalWords_v01.txt',
+        #                       imagefont='data/raw/fonts',
+        #                       writedir='data/processed/Images')
+
+        convertWordsIntoImages(readwords='sampleWords.txt',
+                               imagefont='fonts',
+                               writedir='sampleWords')
+
+    else:
+        # function argument error message (see below)
+        err = "Arguments should be passed as a dictionary within quotes\nExample: \"{'key1': 'value1', 'key2': 'value2'}\""
+
+        # check if arguments are passed to convertWordsIntoImages (from the command line)
+        if len(sys.argv) == 2:
+            try:
+                # parse the string (containing a dictionary) passed from the command line into a dictionary
+                args = eval(sys.argv[1])
+            except:
+                raise ValueError(err)
+
+            if not isinstance(args, dict):
+                raise ValueError(err)
+
+            # possible function formal arguments
+            all_args = ['readwords', 'imagefont', 'writedir', 'fontsize', 'margin', 'wordcolorRGB', 'randomcolor', 'backgroundcolor', 'randombackgroundcolor']
+
+            # check if all formal arguments passed to the function convertWordsIntoImages are valid
+            if not set(all_args).issuperset(args.keys()):
+
+                extra_args = ', '.join(set(args.keys()).difference(all_args))
+                raise ValueError(f"Argument(s) `{extra_args}` not allowed! possible arguments are `{', '.join(all_args)}`")
+
+            # check if the required arguments were specified
+            required_args = ['readwords', 'imagefont', 'writedir']
+            if not set(required_args).issubset(args.keys()):
+                raise ValueError(f"Arguments `{', '.join(required_args)}` required!")
+
+            convertWordsIntoImages(**args)
+
+        else:
+            raise ValueError(err)
+    print("Done!!!")
 
 
-
+#-
