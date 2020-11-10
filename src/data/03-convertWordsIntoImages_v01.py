@@ -177,7 +177,8 @@ def convertWordsIntoImages(readwords,                  # readwords: a string or 
 
 if __name__ == '__main__':
 
-    # default behavior of the function: assume there that sampleWords.txt file, and fonts and sampleWords folders exist in the directory
+    # calling convertWordsIntoImages from command line: default behavior
+    # Assumes that sampleWords.txt file, and fonts and sampleWords folders exist in the directory
     if len(sys.argv) == 1:
         #convertWordsIntoImages(readwords='data/processed/01-allMedicalWords_v01.txt',
         #                       imagefont='data/raw/fonts',
@@ -187,6 +188,7 @@ if __name__ == '__main__':
                                imagefont='fonts',
                                writedir='sampleWords')
 
+    # calling convertWordsIntoImages from command line with arguments
     else:
         # function argument error message (see below)
         err = "If specified, function arguments should be passed as a dictionary within quotes\nExample: convertWordsIntoImages.py \"{'readwords': 'words.txt', 'imagefont': 'fonts', 'writedir': 'Images'}\""
