@@ -83,10 +83,16 @@ def convertWordsIntoImages(readwords,                  # readwords: a string or 
     # color of the words
     if wordcolorRGB is None:
         wordcolorRGB = (0, 0, 0)
+    else:
+        if not (isinstance(wordcolorRGB, tuple) and all(isinstance(x, int) and x >= 0 and x <= 255 for x in wordcolorRGB)):
+            raise TypeError("'wordcolorRGB' should be a tuple of three integers between 0 and 255")
 
     # background color of the images
     if backgroundcolor is None:
         backgroundcolor = (255, 255, 255)
+    else:
+        if not (isinstance(backgroundcolor, tuple) and all(isinstance(x, int) and x >= 0 and x <= 255 for x in backgroundcolor)):
+            raise TypeError("'backgroundcolor' should be a tuple of three integers between 0 and 255")
 
     # check if the directory to save the images, writedir, exists
     if isinstance(writedir, str):
