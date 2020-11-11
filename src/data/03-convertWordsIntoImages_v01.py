@@ -84,6 +84,7 @@ def convertWordsIntoImages(readwords,                  # readwords: a string or 
     if wordcolorRGB is None:
         wordcolorRGB = (0, 0, 0)
     else:
+        # check if wordcolorRGB is a tuple of three integers between 0 and 255
         if not (isinstance(wordcolorRGB, tuple) and all(isinstance(x, int) and x >= 0 and x <= 255 for x in wordcolorRGB)):
             raise TypeError("'wordcolorRGB' should be a tuple of three integers between 0 and 255")
 
@@ -91,6 +92,7 @@ def convertWordsIntoImages(readwords,                  # readwords: a string or 
     if backgroundcolor is None:
         backgroundcolor = (255, 255, 255)
     else:
+        # check if backgroundcolor is a tuple of three integers between 0 and 255
         if not (isinstance(backgroundcolor, tuple) and all(isinstance(x, int) and x >= 0 and x <= 255 for x in backgroundcolor)):
             raise TypeError("'backgroundcolor' should be a tuple of three integers between 0 and 255")
 
