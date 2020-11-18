@@ -29,7 +29,7 @@ The image below describes this process.
 ```
 Medical-words/
 │
-├──	data/
+├── data/
 │   ├── external/
 │   ├── interim/
 │   │   ├── 01-cris_medicalWordsClean_v01.txt
