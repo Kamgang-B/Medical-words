@@ -17,3 +17,49 @@ different from _Medical-words_ project.
 The image below describes this process.
 
 ![Untitled Diagram2](https://user-images.githubusercontent.com/72712004/97102438-d3936800-16a5-11eb-88e6-c1f5e4ea7aa8.png)
+
+
+## Repository structure
+
+
+```
+Medical-words/
+│
+├──	data/
+│   ├── external/
+│   ├── interim/
+│   │   ├── 01-cris_medicalWordsClean_v01.txt
+│   │   ├── 01-enam_medicalWordsClean_v01.txt
+│   │   ├── 01-john_medicalWordsClean_v01.txt
+│   │   ├── 01-mamuzou_medicalWordsClean_v01.txt
+│   ├── processed/
+│   │   ├── 01-allMedicalWords_v01.txt
+│   ├── raw/
+│   │   ├── 01-cris_MedicalWords_v01.txt
+│   │   ├── 01-enam_MedicalWords_v01.txt
+│   │   ├── 01-john_MedicalWords_v01.txt
+│   │   ├── 01-mamuzou_MedicalWords_v01.txt
+│   │   ├── OpenSans-Regular.ttf
+├── docs/
+│   │   
+├── models/
+│   │   
+├── notebooks/
+│   ├── 01-john_MedicalCode_v01.ipynb
+├── references/
+│   │
+├── reports/
+│   ├── figures/
+├── src/
+│   ├── data/
+│   │   ├── 01-cris_scrapedWords_v01.py
+│   │   ├── 02-cleanWords_v01.py
+│   │   ├── 03-convertWordsIntoImages_v01.py
+│   ├── features/
+│   ├── models/
+│   ├── visualization/
+│
+├── README.md
+
+```
+
