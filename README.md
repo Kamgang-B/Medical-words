@@ -22,6 +22,10 @@ The image below describes this process.
 ## Repository structure
 
 
+
+
+
+
 ```
 Medical-words/
 │
