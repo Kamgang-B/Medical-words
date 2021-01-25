@@ -1,3 +1,6 @@
+"""
+@author: Kamgang
+"""
 
 # Purpose: This file is used to convert words into images. The words converted
 #          are contained in the file 01-allMedicalWords_v01.txt
@@ -147,7 +150,7 @@ def convertWordsIntoImages(readwords,                  # readwords: a string or 
             for file in imagefont: font_list.append(ImageFont.truetype(file, fontsize))
 
     else:
-        raise TypeError("'imagefont' should a string or a list!")
+        raise TypeError("'imagefont' should be a string or a list!")
 
     # create images
     for word in words:
