@@ -1,4 +1,7 @@
+"""
+@author: kaboc
 
+"""
 # PURPOSE: This file is used to clean all the words from the files
 #          01-cris_MedicalWords_v01.txt,  01-john_MedicalWords_v01.txt,
 #          01-enam_MedicalWords_v01.txt,  01-mamuzou_MedicalWords_v01.txt
